@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>TeamCode</title>
+    <!-- <style>
+        .CodeMirror { height: calc(100vh - 1px); }
+      </style> -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link> -->
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="/js/adapter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="/js/meeting.js"></script>
+    <!-- <script>window.room = new window.meeting('');</script> -->
+
+    <script src="//ternjs.net/node_modules/acorn/dist/acorn.js"></script>
+    <script src="//ternjs.net/node_modules/acorn/dist/acorn_loose.js"></script>
+    <script src="//ternjs.net/node_modules/acorn/dist/walk.js"></script>
+    <script src="//ternjs.net/doc/demo/polyfill.js"></script>
+    <script src="//ternjs.net/lib/signal.js"></script>
+    <script src="//ternjs.net/lib/tern.js"></script>
+    <script src="//ternjs.net/lib/def.js"></script>
+    <script src="//ternjs.net/lib/comment.js"></script>
+    <script src="//ternjs.net/lib/infer.js"></script>
+    <script src="//ternjs.net/plugin/doc_comment.js"></script>
+    <script src="//ajax.aspnetcdn.com/ajax/jshint/r07/jshint.js"></script>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+
+  </head>
+  <style>
+    #root {
+      height: 100%;
+    }
+  </style>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
